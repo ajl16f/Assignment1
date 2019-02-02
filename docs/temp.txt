@@ -1,0 +1,12 @@
+git push
+Username for 'https://github.com': ajl16f
+Password for 'https://ajl16f@github.com':
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 811 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/ajl16f/Assignment1.git
+   3d373c9..7cfd8f2  master -> master
+
