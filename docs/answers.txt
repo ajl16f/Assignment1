@@ -1,1 +1,42 @@
- 
+a) $ git commit
+[master 65f0dfa] Updated Information Files
+ 2 files changed, 11 insertions(+)
+
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 662 bytes | 331.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ajl16f/Assignment1.git
+   948e7bc..65f0dfa  master -> master
+
+b) 5
+   git rev-list --all--count
+
+c) jan 30 16:29 ls -al
+d) adding functionality and so that we do not break currently functioning code.
+e) git log tells us all of the commit names author names and date. 
+	git status tells us the current status of which files have been modified
+	since the previous commit.
+f) git log Weapon.h
+g) git log --all -grep='file'
+h)sI) inheritance is when a class "inherits" or receives all 
+	variables and functions from another class as well as its own. 
+   II) polymorphism is where you have many inherited classes that use a same named function to do a different task
+   III) Encapsulation is a way of protecting your data by removing direct
+   	access from the user by putting it into private section. Access
+	for the end user through getting and setting functions.
+i) the differences in this style of managing git pushes to the main repository
+	is that in the dictator and lieutenants one, one person has 
+	100% control over the final product where in the integration
+	management there are multiple repositories where conflict resoltions
+	occur and are fixed by individuals, not a "higher up" developer.
+j) a larger team would benefit from a dictator and lieutenants workflow
+	because it is much easier for 3 or 4 people to make a decision with
+	one person with the final say than 100 people trying to get their
+	idea in the final project.
+
+
