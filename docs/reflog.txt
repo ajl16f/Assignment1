@@ -1,0 +1,5 @@
+git reflog --all
+4bdbf46 refs/heads/master@{0}: commit: i pushed and merged the development branch with the master branch
+064e83d refs/heads/development@{0}: commit: added weapon functionality
+a6cc4cd refs/heads/development@{1}: branch: Created from master
+
