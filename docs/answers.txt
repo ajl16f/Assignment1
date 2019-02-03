@@ -39,4 +39,10 @@ j) a larger team would benefit from a dictator and lieutenants workflow
 	one person with the final say than 100 people trying to get their
 	idea in the final project.
 
+5.) The RoleGame prototype has both polymorphism and encapsulation. In the
+weapon class both the name variable and hitPoints variable are protected. 
+meaning only the subclasses can access it, so it is "encapsulated" within
+the class and the end user doesn't have direct acces to the variable.
 
+	The weapon class also has an instance of polymorphism where it has
+    a virtual class "hit" that all its children have their own versian of.
